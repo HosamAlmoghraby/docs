@@ -150,6 +150,10 @@ The `allowDomains` field is optional. Only users with Google Workspace accounts 
 
 Follow your OpenID Connect service provider's documentation on how to create the required application.
 
+We have custom guides for:
+- [Okta](/docs/self-hosted/guides/okta)
+- [Azure](/docs/self-hosted/guides/azure)
+
 When creating the application, you'll need to provide the following values:
 
 - Start SSO URL:  `https://okteto.DOMAIN`
@@ -269,7 +273,7 @@ cloud:
       enabled: true
 ```
 
-When using `byo` you'll need to [configure your registry](docs/self-hosted/administration/configuration/#registry) to use the file system for storage.
+When using `byo` you'll need to [configure your registry](/docs/self-hosted/administration/configuration/#registry) to use the file system for storage.
 
 ```yaml
 registry:
